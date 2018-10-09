@@ -11,4 +11,6 @@ def line(katz_deli)
   end
 end
 
-5
+def take_a_number(katz_deli, name)
+  puts "#{katz_deli.size + 1}. #{name}"
+end 
